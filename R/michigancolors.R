@@ -12,7 +12,7 @@
 #' "ross school orange", "wave field green",
 #' "taubman teal", "arboretum blue", and
 #' "ann arbor amethyst"
-#' @export
+#' @export michigancolors
 michigancolors <- function(x = "all") {
 
   switch(x,
