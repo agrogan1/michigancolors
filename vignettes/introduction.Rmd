@@ -11,56 +11,141 @@ vignette: >
 
 ```{r setup, include = FALSE, echo=FALSE}
 
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+knitr::opts_chunk$set(warning = FALSE,
+                      message = FALSE, 
+                      collapse = TRUE, 
+                      comment = "#>")
+
 ```
 
-Vignettes are long form documentation commonly included in packages. Because they are part of the distribution of the package, they need to be as compact as possible. The `html_vignette` output type provides a custom style sheet (and tweaks some options) to ensure that the resulting html is as small as possible. The `html_vignette` format:
+# Introduction
 
-- Never uses retina figures
-- Has a smaller default figure size
-- Uses a custom CSS stylesheet instead of the default Twitter Bootstrap style
+This package provides a color palette for University of Michigan colors that can be used in R graphs.
 
-## Vignette Info
+# Installation
 
-Note the various macros within the `vignette` section of the metadata block above. These are required in order to instruct R how to build the vignette. Note that you should change the `title` field and the `\VignetteIndexEntry` to match the title of your vignette.
+```{r}
 
-## Styles
+devtools::install_github("agrogan1/michigancolors")
 
-The `html_vignette` template includes a basic CSS theme. To override this theme you can specify your own CSS in the document metadata as follows:
-
-    output: 
-      rmarkdown::html_vignette:
-        css: mystyles.css
-
-## Figures
-
-The figure sizes have been customised so that you can easily put two images side-by-side. 
-
-```{r, fig.show='hold'}
-plot(1:10)
-plot(10:1)
 ```
 
-You can enable figure captions by `fig_caption: yes` in YAML:
+```{r}
 
-    output:
-      rmarkdown::html_vignette:
-        fig_caption: yes
+library(michigancolors)
 
-Then you can use the chunk option `fig.cap = "Your figure caption."` in **knitr**.
-
-## More Examples
-
-You can write math expressions, e.g. $Y = X\beta + \epsilon$, footnotes^[A footnote here.], and tables, e.g. using `knitr::kable()`.
-
-```{r, echo=FALSE, results='asis'}
-knitr::kable(head(mtcars, 10))
 ```
 
-Also a quote using `>`:
 
-> "He who gives up [code] safety for [code] speed deserves neither."
-([via](https://twitter.com/hadleywickham/status/504368538874703872))
+# Use
+
+```{r}
+
+# iris data set
+ 
+data(iris)
+
+```
+
+## Base R
+
+### Histograms
+ 
+```{r}
+
+hist(iris$Petal.Length, col = michigan_colors) 
+
+```
+
+```{r}
+
+hist(iris$Petal.Length, col = arboretum_blue)
+
+```
+
+### Barplot
+
+```{r}
+
+barplot(table(iris$Species), 
+        xlab = "Species", 
+        ylab = "Frequency",
+        col = michigan_colors,
+        main = "Species Type in Iris Data Set")
+
+```
+
+### Scatterplots
+
+```{r}
+
+plot(iris$Sepal.Length, 
+     iris$Petal.Length,
+     bg = michigan_colors,
+     pch = 21,
+     main = "Scatterplot of Iris Data Set")
+
+```
+
+```{r}
+
+plot(iris$Sepal.Length, 
+     iris$Petal.Length,
+     bg = arboretum_blue,
+     pch = 21,
+     main = "Scatterplot of Iris Data Set")
+
+```
+
+### Boxplot
+
+```{r}
+
+boxplot(Sepal.Length ~ Species, 
+        ylab = "Sepal Length",
+        data = iris,
+        main = "Boxplot of Iris Data", 
+        col = michigan_colors)
+
+```
+
+## ggplot2
+
+```{r}
+
+library(ggplot2)
+
+```
+
+### Density Plot
+
+```{r}
+
+ggplot(iris,
+       aes(x=Petal.Length,
+           fill = Species)) +
+         geom_density() +
+  facet_wrap(~Species) +
+  ggtitle("Petal Length in Different Species of Iris") +
+  theme_minimal() +
+  scale_fill_manual(values = michigan_colors)
+
+```
+
+### Scatterplot with Smoother
+
+```{r}
+
+ggplot(iris,
+       aes(x = Petal.Length,
+           y = Sepal.Length,
+           color = Species)) + 
+  geom_point() + 
+  geom_smooth() +
+  ggtitle("Scatterplot of Iris Data Set") +
+  theme_minimal() +
+  scale_color_manual(values = michigan_colors)
+
+```
+
+
