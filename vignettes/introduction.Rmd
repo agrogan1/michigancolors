@@ -4,12 +4,13 @@ author: "Andrew Grogan-Kaylor"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{Introduction to michigancolors}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r setup, include = FALSE}
+```{r setup, include = FALSE, echo=FALSE}
+
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
