@@ -24,7 +24,7 @@ This package provides a color palette for University of Michigan colors that can
 
 # Installation
 
-```{r}
+```{r, eval=FALSE}
 
 devtools::install_github("agrogan1/michigancolors")
 
@@ -53,13 +53,13 @@ data(iris)
  
 ```{r}
 
-hist(iris$Petal.Length, col = michigan_colors) 
+hist(iris$Petal.Length, col = michigancolors()) 
 
 ```
 
 ```{r}
 
-hist(iris$Petal.Length, col = arboretum_blue)
+hist(iris$Petal.Length, col = michigancolors("arboretum_blue"))
 
 ```
 
@@ -70,7 +70,7 @@ hist(iris$Petal.Length, col = arboretum_blue)
 barplot(table(iris$Species), 
         xlab = "Species", 
         ylab = "Frequency",
-        col = michigan_colors,
+        col = michigancolors(),
         main = "Species Type in Iris Data Set")
 
 ```
@@ -81,7 +81,7 @@ barplot(table(iris$Species),
 
 plot(iris$Sepal.Length, 
      iris$Petal.Length,
-     bg = michigan_colors,
+     bg = michigancolors(),
      pch = 21,
      main = "Scatterplot of Iris Data Set")
 
@@ -91,7 +91,7 @@ plot(iris$Sepal.Length,
 
 plot(iris$Sepal.Length, 
      iris$Petal.Length,
-     bg = arboretum_blue,
+     bg = michigancolors("arboretum_blue"),
      pch = 21,
      main = "Scatterplot of Iris Data Set")
 
@@ -105,7 +105,7 @@ boxplot(Sepal.Length ~ Species,
         ylab = "Sepal Length",
         data = iris,
         main = "Boxplot of Iris Data", 
-        col = michigan_colors)
+        col = michigancolors())
 
 ```
 
@@ -128,7 +128,7 @@ ggplot(iris,
   facet_wrap(~Species) +
   ggtitle("Petal Length in Different Species of Iris") +
   theme_minimal() +
-  scale_fill_manual(values = michigan_colors)
+  scale_fill_manual(values = michigancolors())
 
 ```
 
@@ -144,7 +144,7 @@ ggplot(iris,
   geom_smooth() +
   ggtitle("Scatterplot of Iris Data Set") +
   theme_minimal() +
-  scale_color_manual(values = michigan_colors)
+  scale_color_manual(values = michigancolors())
 
 ```
 
