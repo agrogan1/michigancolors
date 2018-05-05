@@ -1,5 +1,5 @@
 ---
-title: "Introcution to michigancolors"
+title: "Introduction to michigancolors"
 author: "Andrew Grogan-Kaylor"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
