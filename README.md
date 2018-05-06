@@ -4,6 +4,8 @@
 
 ### Installation
 
+You will need to install `devtools` if you have not already done so.
+
 `devtools::install_github("agrogan1/michigancolors")`
 
 ### Usage
