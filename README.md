@@ -18,7 +18,7 @@
 
 `plot(x, y, col = michigancolors("blue"))`
 
-`ggplot(iris, aes(x = Petal.Length, y = Sepal.Length, color = Species)) + geom_point() + geom_smooth() + ggtitle("Scatterplot of Iris Data Set") + theme_minimal() + scale_color_manual(values = michigan_colors)`
+`ggplot(iris, aes(x = Petal.Length, y = Sepal.Length, color = Species)) + geom_point() + geom_smooth() + ggtitle("Scatterplot of Iris Data Set") + theme_minimal() + scale_color_manual(values = michigancolors())`
   
 ### Allowable Colors
 
