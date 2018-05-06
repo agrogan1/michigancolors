@@ -8,7 +8,7 @@
 
 ### Usage
 
-library(michigancolors)
+`library(michigancolors)`
 
 ### Help
 
