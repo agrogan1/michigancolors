@@ -6,6 +6,10 @@
 
 `devtools::install_github("agrogan1/michigancolors")`
 
+### Usage
+
+library(michigancolors)
+
 ### Help
 
 `help(michigancolors)`
