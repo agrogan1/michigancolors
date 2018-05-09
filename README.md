@@ -2,7 +2,7 @@
 
 ## University of Michigan colors for R
 
-## Demonstration Page With Graphs
+### Demonstration Page With Graphs
 
 [Demonstration Page With Graphs](http://www-personal.umich.edu/~agrogan/R/michigancolors_demo.html)
 
