@@ -4,9 +4,9 @@
 
 ### Installation
 
-You will need to install `devtools` if you have not already done so.
+You will need to install `devtools` if you have not already done so: `install.packages("devtools")`
 
-`devtools::install_github("agrogan1/michigancolors")`
+Then, use devtools to install the `michigancolors` package from GitHub:  `devtools::install_github("agrogan1/michigancolors")`
 
 ### Usage
 
