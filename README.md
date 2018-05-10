@@ -1,8 +1,8 @@
 # michigancolors
 
-## University of Michigan colors for R
+## University of Michigan colors for R Graphs
 
-### Demonstration Page With Graphs
+### Demonstration 
 
 [Demonstration Page With Graphs](http://www-personal.umich.edu/~agrogan/R/michigancolors_demo.html)
 
