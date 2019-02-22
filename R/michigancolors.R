@@ -6,12 +6,8 @@
 #' @keywords Michigan colors
 #' @examples
 #' hist(iris$Petal.Length, col = michigancolors())
-#' hist(x, col = michigancolors())
-#' plot(x, y, col = michigancolors("blue"))
-#' Allowable colors are: "blue", "maize", "tappan red",
-#' "ross school orange", "wave field green",
-#' "taubman teal", "arboretum blue", and
-#' "ann arbor amethyst"
+#' hist(iris$Petal.Width, col = michigancolors())
+#' plot(iris$Petal.Length, iris$Petal.Width, col = michigancolors("blue"))
 #' @export michigancolors
 michigancolors <- function(x = "all") {
 
