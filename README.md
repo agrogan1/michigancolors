@@ -6,8 +6,6 @@
 
 ### Demonstration 
 
-[Demonstration Page With Graphs](http://www-personal.umich.edu/~agrogan/R/michigancolors_demo.html)
-
 ### Installation
 
 You will need to install `devtools` if you have not already done so: `install.packages("devtools")`
