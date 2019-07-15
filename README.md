@@ -2,9 +2,9 @@
 
 ## University of Michigan colors for R Graphs
 
-[[Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fagrogan1.github.io%2Fmichigancolors%2F&text=University%20of%20Michigan%20colors%20for%20R%20graphs%20%23rstats)] 
-
 ### Demonstration 
+
+[Demonstration Page](https://agrogan1.github.io/R/michigancolors-demo/michigancolors-demo.html)
 
 ### Installation
 

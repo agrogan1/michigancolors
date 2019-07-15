@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Andrew", "Grogan-Kaylor", email = "agrogan@umich.edu", role = c("aut", "cre"))
 Description: Use University of Michigan colors in R graphs.
 Depends: R (>= 3.3)
-License: GNU GENERAL PUBLIC LICENSE
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
