@@ -2,6 +2,8 @@
 
 ## University of Michigan colors for R Graphs
 
+Per [https://brand.umich.edu/design-resources/colors/](https://brand.umich.edu/design-resources/colors/)
+
 ### Demonstration 
 
 [Demonstration Page](https://agrogan1.github.io/R/michigancolors-demo/michigancolors-demo.html)
