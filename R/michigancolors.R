@@ -2,7 +2,7 @@
 #'
 #' Use University of Michigan colors in graphs.
 #'
-#' @param x colors. Defaults to all.
+#' @param x colors. Defaults to all. Allowable colors are: “blue”, “maize”, “tappan red”, “ross school orange”, “wave field green”, “taubman teal”, “arboretum blue”, “ann arbor amethyst”, “matthaei violet”, “umma tan”, “burton tower beige”, “angell hall ash”, and “law quad stone”.
 #' @keywords Michigan colors
 #' @examples
 #' hist(iris$Petal.Length, col = michigancolors())

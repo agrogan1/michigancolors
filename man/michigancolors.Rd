@@ -7,7 +7,7 @@
 michigancolors(x = "all")
 }
 \arguments{
-\item{x}{colors. Defaults to all.}
+\item{x}{colors. Defaults to all. Allowable colors are: “blue”, “maize”, “tappan red”, “ross school orange”, “wave field green”, “taubman teal”, “arboretum blue”, “ann arbor amethyst”, “matthaei violet”, “umma tan”, “burton tower beige”, “angell hall ash”, and “law quad stone”.}
 }
 \description{
 Use University of Michigan colors in graphs.
