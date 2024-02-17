@@ -7,8 +7,7 @@
 #' @examples
 #' hist(iris$Petal.Length, col = michigancolors())
 #' hist(iris$Petal.Width, col = michigancolors())
-#' plot(iris$Petal.Length, iris$Petal.Width, col = michigancolors("blue"), pch = 19)
-#' ggplot::ggplot(iris, aes(x = Petal.Length, y = Sepal.Length, color = Species)) + geom_point() + scale_color_manual(values = michigancolors())
+#' plot(iris$Petal.Length, iris$Petal.Width, col = michigancolors("arboretum blue"), pch = 19)
 #' @export michigancolors
 michigancolors <- function(x = "all") {
 
