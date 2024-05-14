@@ -13,8 +13,8 @@ michigancolors(x = "all")
 Use University of Michigan colors in graphs.
 }
 \examples{
-hist(iris$Petal.Length, col = michigancolors())
 hist(iris$Petal.Width, col = michigancolors())
+hist(iris$Petal.Length, col = michigancolors("blue"))
 plot(iris$Petal.Length, iris$Petal.Width, col = michigancolors("arboretum blue"), pch = 19)
 }
 \keyword{Michigan}
