@@ -99,9 +99,7 @@ hist(iris$Petal.Length,
 
 ```
 
-# Specific Color
-
-## Base R
+### Specific Color
 
 ```{r}
 
