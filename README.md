@@ -6,10 +6,6 @@
 
 Per [https://brand.umich.edu/design-resources/colors/](https://brand.umich.edu/design-resources/colors/)
 
-### Demonstration 
-
-[Demonstration Page](https://agrogan1.github.io/R/michigancolors-demo/michigancolors-demo.html)
-
 ### Installation
 
 You will need to install `devtools` if you have not already done so: `install.packages("devtools")`
