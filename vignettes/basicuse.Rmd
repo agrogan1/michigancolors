@@ -43,25 +43,19 @@ ggplot(data = NULL,
 You will need to install `devtools` if you have not already done so:
 
 ```{r, eval=FALSE}
-
 install.packages("devtools")
-
 ```
 
 Then use `devtools` to install `michigancolors`.
 
 ```{r, eval=FALSE}
-
 devtools::install_github("agrogan1/michigancolors")
-
 ```
 
 # Usage
 
 ```{r}
-
 library(michigancolors)
-
 ```
 
 # Allowable Colors
@@ -73,9 +67,7 @@ Allowable colors are: "blue", "maize", "tappan red", "ross school orange", "wave
 # Help
 
 ```{r, eval = FALSE}
-
 help(michigancolors)
-
 ```
 
 # Examples
@@ -85,49 +77,38 @@ help(michigancolors)
 ### Entire Palette Of Colors
 
 ```{r}
-
 hist(iris$Petal.Length, col = michigancolors())
-
 ```
 
 ```{r}
-
 hist(iris$Petal.Length, 
      col = michigancolors(),
      main = "Petal Length of Iris Flowers",
      xlab = "Petal Length")
-
 ```
 
 ### Specific Color
 
 ```{r}
-
 hist(iris$Petal.Length, col = michigancolors("matthaei violet"))
-
 ```
 
 ```{r}
-
 plot(iris$Petal.Length, 
      iris$Sepal.Length, 
      pch = 19,
      col = michigancolors("tappan red"))
-
 ```
 
 ## ggplot2
 
 ```{r}
-
 library(ggplot2)
-
 ```
 
 ### Entire Palette Of Colors
 
 ```{r}
-
 ggplot(iris, 
        aes(x = Petal.Length, 
            fill = Species)) + 
@@ -135,12 +116,9 @@ ggplot(iris,
   labs(title = "Density Plot of Species in Iris Data Set") + 
   theme_minimal() + 
   scale_fill_manual(values = michigancolors())
-
-
 ```
 
 ```{r}
-
 ggplot(iris, 
        aes(x = Petal.Length, 
            y = Sepal.Length, 
@@ -150,13 +128,11 @@ ggplot(iris,
   labs(title = "Scatterplot of Iris Data Set") + 
   theme_minimal() + 
   scale_color_manual(values = michigancolors())
-
 ```
 
 ### Specific Colors
 
 ```{r}
-
 library(ggdist) # distribution plots
 
 ggplot(iris,
@@ -170,7 +146,6 @@ ggplot(iris,
   scale_fill_manual(values = c(michigancolors("arboretum blue"),
                                michigancolors("ann arbor amethyst"),
                                michigancolors("matthaei violet")))
-
 ```
 
 
