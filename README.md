@@ -8,9 +8,13 @@ Per [https://brand.umich.edu/design-resources/colors/](https://brand.umich.edu/d
 
 ### Installation
 
-You will need to install `devtools` if you have not already done so: `install.packages("devtools")`
+You will need to install `devtools` if you have not already done so: 
 
-Then, use devtools to install the `michigancolors` package from GitHub:  `devtools::install_github("agrogan1/michigancolors")`
+`install.packages("devtools")`
+
+Then, use devtools to install the `michigancolors` package from GitHub:  
+
+`devtools::install_github("agrogan1/michigancolors")`
 
 ### Usage
 
