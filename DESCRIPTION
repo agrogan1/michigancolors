@@ -1,6 +1,6 @@
 Package: michigancolors
 Title: Use University of Michigan colors in R graphs
-Version: 1.0
+Version: 1.1
 Authors@R: person("Andrew", "Grogan-Kaylor", email = "agrogan@umich.edu", role = c("aut", "cre"))
 Description: Use University of Michigan colors in R graphs.
 Depends: R (>= 3.3)

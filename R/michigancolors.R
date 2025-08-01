@@ -16,6 +16,7 @@ michigancolors <- function(x = "all") {
                    "#FFCB05", # Maize
                    "#9A3324", # Tappan Red
                    "#D86018", # Ross School Orange
+                   "#75988d", # Rackham Green
                    "#A5A508", # Wave Field Green
                    "#00B2A9", # Taubman Teal
                    "#2F65A7", # Arboretum Blue
@@ -29,6 +30,7 @@ michigancolors <- function(x = "all") {
          "maize" = "#FFCB05",
          "tappan red" = "#9A3324",
          "ross school orange" = "#D86018",
+         "rackham green" = "#75988d",
          "wave field green" = "#A5A508",
          "taubman teal" = "#00B2A9",
          "arboretum blue" = "#2F65A7",
