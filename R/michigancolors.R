@@ -7,7 +7,7 @@
 #' @examples
 #' hist(iris$Petal.Width, col = michigancolors())
 #' hist(iris$Petal.Length, col = michigancolors("blue"))
-#' plot(iris$Petal.Length, iris$Petal.Width, col = michigancolors("arboretum blue"), pch = 19)
+#' plot(iris$Petal.Length, iris$Petal.Width, col = michigancolors("tappan red"), pch = 19)
 #' @export michigancolors
 michigancolors <- function(x = "all") {
 

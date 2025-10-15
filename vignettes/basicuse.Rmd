@@ -144,7 +144,7 @@ ggplot(iris,
   labs(title = "Petal Length by Iris Species") + 
   theme_minimal() + 
   scale_fill_manual(values = c(michigancolors("arboretum blue"),
-                               michigancolors("ann arbor amethyst"),
+                               michigancolors("tappan red"),
                                michigancolors("matthaei violet")))
 ```
 
