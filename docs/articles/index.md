@@ -2,4 +2,5 @@
 
 ### Articles
 
-- [Basic Use](basicuse.md):
+- [Basic
+  Use](https://agrogan1.github.io/michigancolors/articles/basicuse.md):

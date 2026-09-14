@@ -2,5 +2,5 @@
 
 ## All functions
 
-- [`michigancolors()`](michigancolors.md) : University of Michigan color
-  palette
+- [`michigancolors()`](https://agrogan1.github.io/michigancolors/reference/michigancolors.md)
+  : University of Michigan color palette

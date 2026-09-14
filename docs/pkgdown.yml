@@ -1,6 +1,9 @@
-pandoc: 3.8.3
+pandoc: '3.10'
 pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   basicuse: basicuse.html
-last_built: 2026-08-25T18:41Z
+last_built: 2026-09-14T16:54Z
+urls:
+  reference: https://agrogan1.github.io/michigancolors/reference
+  article: https://agrogan1.github.io/michigancolors/articles

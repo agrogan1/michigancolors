@@ -15,11 +15,12 @@ Use](https://agrogan1.github.io/michigancolors/articles/basicuse.html)
 
 ## All functions
 
-- [`michigancolors()`](michigancolors.md) : University of Michigan color
-  palette
+- [`michigancolors()`](https://agrogan1.github.io/michigancolors/reference/michigancolors.md)
+  : University of Michigan color palette
 
 # Articles
 
 ### Articles
 
-- [Basic Use](basicuse.md):
+- [Basic
+  Use](https://agrogan1.github.io/michigancolors/articles/basicuse.md):

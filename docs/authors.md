@@ -11,12 +11,12 @@ Source:
 
 Grogan-Kaylor A (2026). *michigancolors: Use University of Michigan
 colors in R graphs*. R package version 1.1,
-<https://github.com/agrogan1/michigancolors>.
+<https://agrogan1.github.io/michigancolors/>.
 
     @Manual{,
       title = {michigancolors: Use University of Michigan colors in R graphs},
       author = {Andrew Grogan-Kaylor},
       year = {2026},
       note = {R package version 1.1},
-      url = {https://github.com/agrogan1/michigancolors},
+      url = {https://agrogan1.github.io/michigancolors/},
     }

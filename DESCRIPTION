@@ -5,7 +5,7 @@ Authors@R: person("Andrew", "Grogan-Kaylor", email = "agrogan@umich.edu", role =
 Description: Use University of Michigan colors in R graphs.
 Depends: R (>= 3.3)
 License: GPL-2
-URL: https://github.com/agrogan1/michigancolors
+URL: https://agrogan1.github.io/michigancolors/
 BugReports: https://github.com/agrogan1/michigancolors/issues
 Encoding: UTF-8
 LazyData: true

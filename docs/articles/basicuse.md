@@ -4,18 +4,18 @@
 
 ## Installation
 
-You will need to install `devtools` if you have not already done so:
+You will need to install `pak` if you have not already done so:
 
 ``` r
 
-install.packages("devtools")
+install.packages("pak")
 ```
 
 Then use `devtools` to install `michigancolors`.
 
 ``` r
 
-devtools::install_github("agrogan1/michigancolors")
+pak::pak("agrogan1/michigancolors")
 ```
 
 ## Usage
