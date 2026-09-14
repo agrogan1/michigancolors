@@ -40,16 +40,16 @@ ggplot(data = NULL,
 
 # Installation
 
-You will need to install `devtools` if you have not already done so:
+You will need to install `pak` if you have not already done so:
 
 ```{r, eval=FALSE}
-install.packages("devtools")
+install.packages("pak")
 ```
 
 Then use `devtools` to install `michigancolors`.
 
 ```{r, eval=FALSE}
-devtools::install_github("agrogan1/michigancolors")
+pak::pak("agrogan1/michigancolors")
 ```
 
 # Usage
